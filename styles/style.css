@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#about {
+  font-size: green;
+  color: green;
+}
+
+#contact {
+  font-size: red;
+  color: red;
+}
+
+.buy {
+  background-color: rgba(66, 59, 59, 0.774);
+  color: white;
+  font-size: 20px;
+}
+
+nav {
+  background-color: rgba(66, 59, 59, 0.774);
+}
+
+nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav li {
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4em;
+}
+
+nav a:hover {
+  background: yellow;
+}
+/*# sourceMappingURL=style.css.map */

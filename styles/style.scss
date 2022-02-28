@@ -1,0 +1,43 @@
+//import partial files
+@import "reset";
+@import "variable";
+
+//mixin
+@mixin para-style($size, $color) {
+    font-size: $color;
+    color: $color;
+}
+
+#about{
+    @include para-style(24px, green);
+}
+#contact{
+    @include para-style(18px, red);
+}
+ .buy{
+    background-color: $main-color;
+    color: white;
+    font-size: $title-font-size;
+ }
+
+ //sass nesting like that
+
+ nav{
+     background-color: $main-color;
+     ul{
+         list-style-type: none;
+         display: flex;
+        }
+         li{
+            margin-right: 15px;
+        }
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 1.4em;
+              
+            }
+            a:hover{
+                background: yellow;
+            }
+        }
